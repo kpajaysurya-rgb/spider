@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ajay - Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        nav {
+            background: #333;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #00bcd4, #3f51b5);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            color: #3f51b5;
+            margin-bottom: 15px;
+        }
+
+        .skills {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background: #3f51b5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        .hobbies {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hobby {
+            flex: 1;
+            min-width: 200px;
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .hobby h3 {
+            color: #00a0b0;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .container {
+                width: 92%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ajay</h1>
+        <p>Engineering Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Hello, I'm Ajay!</h2>
+        <p>Welcome to my personal portfolio website.</p>
+    </section>
+
+    <div class="container">
+
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Ajay. I am an engineering student with an interest
+                in technology and learning new skills. I enjoy spending my
+                free time watching movies and playing outdoor games.
+            </p>
+        </section>
+
+        <section class="card" id="education">
+            <h2>Education</h2>
+            <p>
+                <strong>Course:</strong> Engineering
+            </p>
+            <p>
+                <strong>College:</strong> Jain Institute of Technology, Davanagere
+            </p>
+        </section>
+
+        <section class="card" id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <div class="hobbies">
+
+                <div class="hobby">
+                    <h3>🎬 Watching Movies</h3>
+                    <p>
+                        I enjoy watching movies during my free time.
+                    </p>
+                </div>
+
+                <div class="hobby">
+                    <h3>⚽ Outdoor Games</h3>
+                    <p>
+                        I enjoy playing outdoor games and spending time
+                        with friends.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card" id="contact">
+            <h2>Contact</h2>
+            <p>
+                Feel free to connect with me and know more about my
+                engineering journey.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ajay. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
